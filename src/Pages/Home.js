@@ -62,11 +62,11 @@ const handleSubmit = async (e) => {
                         </span>
                       </h1>
                       <div className="about-social-icon text-center">
-                      <img src="assets/img/logo4ina.png"></img>
+                      
                         <ul className="about-social">
                           <li className="wow fadeIn" data-wow-delay=".4s">
                             <a
-                              href="https://www.linkedin.com/in/sanajitjana01"
+                              href="https://www.linkedin.com/in/dali-belkouri/"
                               target="newtab"
                             >
                               <i
@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".2s">
                             <a
-                              href="https://github.com/sanajitjana"
+                              href="https://github.com/todoyalee?tab=overview&from=2024-06-01&to=2024-06-10"
                               target="newtab"
                             >
                               <i
@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".6s">
                             <a
-                              href="https://www.instagram.com/sanajitjana01/"
+                             // href="https://www.instagram.com/sanajitjana01/"
                               target="newtab"
                             >
                               <i
@@ -99,7 +99,7 @@ const handleSubmit = async (e) => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".8s">
                             <a
-                              href="https://twitter.com/sanajitjana01"
+                        //      href="https://twitter.com/sanajitjana01"
                               target="newtab"
                             >
                               <i
@@ -110,7 +110,7 @@ const handleSubmit = async (e) => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay="1s">
                             <a
-                              href="https://dev.to/sanajitjana"
+                          //    href="https://dev.to/sanajitjana"
                               target="newtab"
                             >
                               <i className="fa fa-book" aria-hidden="true"></i>
