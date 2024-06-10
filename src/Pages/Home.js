@@ -56,12 +56,13 @@ const handleSubmit = async (e) => {
                           className="cd-words-wrapper"
                           style={{ width: "266px", overflow: "hidden" }}
                         >
-                          <b className="is-hidden">Sanajit Jana</b>
-                          <b className="is-hidden">Designer</b>
-                          <b className="is-visible">Developer</b>
+                          <b className="is-hidden">4ina   Technology</b>
+                          <b className="is-hidden">Energy Solutions</b>
+                          <b className="is-visible">Using Advanced IA</b>
                         </span>
                       </h1>
                       <div className="about-social-icon text-center">
+                      <img src="assets/img/logo4ina.png"></img>
                         <ul className="about-social">
                           <li className="wow fadeIn" data-wow-delay=".4s">
                             <a
@@ -140,15 +141,13 @@ const handleSubmit = async (e) => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        At present time I'm working on a multi-role, as a Web
-                        Developer I design and create various websites. And as
-                        UI/UX Designer I create many designs for Web
-                        Applications and Mobile applications. I create the
-                        beauty of the site. I'm responsible for the site's
-                        technical aspects, such as its performance and capacity,
-                        which are measures of a website's speed and how much
-                        traffic the site can handle. In addition, I also create
-                        content for the site.
+                      Enthusiastic software engineering student  eager
+to contribute to team success through diligence, 
+attention to the slightest details and above average 
+organizational skills. Did work on projects that works with 
+modern technologies and frameworks. Motivated 
+to learn, prosper and excel in the computer 
+science industry.I have a good experience in mobile development and right now i'm trying to  master SRE
                       </p>
                     </div>
                   </div>
@@ -210,7 +209,7 @@ const handleSubmit = async (e) => {
                   <div className="col-md-4 col-sm-6 col-xs-12 about-col">
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src="assets/img/p1.jpg"
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
@@ -219,7 +218,7 @@ const handleSubmit = async (e) => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h3>Hello! This is Sanajit</h3>
+                        <h3>Hello! This is Mohamed Ali Belkouri</h3>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
