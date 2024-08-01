@@ -56,9 +56,9 @@ const handleSubmit = async (e) => {
                           className="cd-words-wrapper"
                           style={{ width: "266px", overflow: "hidden" }}
                         >
-                          <b className="is-hidden">4ina   Technology</b>
-                          <b className="is-hidden">Energy Solutions</b>
-                          <b className="is-visible">Using Advanced IA</b>
+                          <b className="is-hidden">Mobile Developer</b>
+                          <b className="is-hidden">Freelancer</b>
+                          
                         </span>
                       </h1>
                       <div className="about-social-icon text-center">
@@ -159,10 +159,10 @@ science industry.I have a good experience in mobile development and right now i'
                         className="fa fa-pencil-square-o love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>Working Hard</h3>
+                      <h3>Mobile Development</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Always believe in hard-work in my profession</p>
+                      <p>Flutter</p>
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
@@ -171,10 +171,10 @@ science industry.I have a good experience in mobile development and right now i'
                         className="fa fa-file-image-o love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>UI/UX Design</h3>
+                      <h3>Web Development</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Love to do UI/UX design for new product</p>
+                      <p>Mern Stack</p>
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
@@ -223,7 +223,7 @@ science industry.I have a good experience in mobile development and right now i'
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        I am a web developer from Kolkata, India. I enjoy
+                        I am a web developer from Tunis, Tunisia. I enjoy
                         building everything from small business sites to rich
                         interactive web apps. if you are a business seeking a
                         web presence or an employer looking to hire, you can get
@@ -237,7 +237,7 @@ science industry.I have a good experience in mobile development and right now i'
                         development and love what I do.
                         <br />
                         <br />
-                        Since beginning my journey as a web developer in my
+                        Since beginning my journey as a mobile developer in my
                         college days, I've done remote work for agencies,
                         consulted for startups, and collaborated with talented
                         people to create digital products for both business and
@@ -341,15 +341,11 @@ science industry.I have a good experience in mobile development and right now i'
                 <div className="col-md-6">
                   <div className="skill-details text-left">
                     <p>
-                      UI/UX involves planning and iterating a site's structure
-                      and layout. Once the proper information architecture is in
-                      place, I design the visual layer to create a beautiful
-                      user experience. Front End Development is building out the
-                      visual components of a website. Using HTML, CSS, and
-                      Javascript, I build fast, interactive websites. This also
-                      may include a CMS, apis, or other integrations. The work
-                      that I am most interested in is 0-1 work (helping you get
-                      your idea into the world).
+                    Mobile Development with Flutter involves planning and iterating an app's structure and layout. 
+                    Once the proper information architecture is in place, I design the visual layer to create a beautiful user experience. 
+                    Front End Development in Flutter includes building out the visual components of a mobile app. Using Dart and Flutter, 
+                    I create fast, interactive applications. This also may include integrating APIs, state management, or other third-party services. 
+                    The work that I am most interested in is 0-1 work (helping you get your idea into the world)..
                     </p>
                   </div>
                 </div>
@@ -359,19 +355,31 @@ science industry.I have a good experience in mobile development and right now i'
                       <div className="col">
                         <ul id="skill-main">
                           <li>
-                            <h3>HTML / CSS - 97%</h3>
+                            <h3>Flutter</h3>
                           </li>
                           <li>
-                            <h3>UI / UX - 92%</h3>
+                            <h3>Nodejs  </h3>
                           </li>
                           <li>
-                            <h3>React JS - 30%</h3>
+                            <h3>React JS</h3>
                           </li>
                           <li>
-                            <h3>PHP (Laravel) - 93%</h3>
+                            <h3>PHP (Laravel) </h3>
                           </li>
                           <li>
-                            <h3>MySQL - 95%</h3>
+                            <h3>Firebase</h3>
+                          </li>
+                          <li>
+                            <h3>Spring boot</h3>
+                          </li>
+                          <li>
+                            <h3>MySQL</h3>
+                          </li>
+                          <li>
+                            <h3>git/github</h3>
+                          </li>
+                          <li>
+                            <h3>docker/kubernates</h3>
                           </li>
                         </ul>
                       </div>
@@ -412,12 +420,12 @@ science industry.I have a good experience in mobile development and right now i'
                           aria-hidden="true"
                         ></i>
                         <h3>School</h3>
-                        <h2>2010-2017</h2>
+                        <h2>2005-2020</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Completed my school life from Haludbari High School
-                          (H.S.), Khejuri, West Bengal, India.
+                          Completed my school life from bardo 2 High School
+                          (H.S.),  bardo, tunis, Tunisia.
                         </p>
                       </div>
                     </div>
@@ -431,7 +439,7 @@ science industry.I have a good experience in mobile development and right now i'
                           aria-hidden="true"
                         ></i>
                         <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
+                        <h2>2020-2023</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
@@ -441,10 +449,9 @@ science industry.I have a good experience in mobile development and right now i'
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
+                            ISSat MATEUR (Computer Science)
                           </a>
-                          , Contai, West Bengal, India.
+                          , mateur, Tunisia
                         </p>
                       </div>
                     </div>
@@ -457,12 +464,12 @@ science industry.I have a good experience in mobile development and right now i'
                           className="fa fa-graduation-cap resume-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Training &amp; Skill</h3>
-                        <h2>2022-2022</h2>
+                        <h3>Software &amp; EEngineering</h3>
+                        <h2>2023-2026</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Currently learning Full-Stack Web Development from{" "}
+                          Currently learning Mobile Development from{" "}
                           <a
                             href="https://masaischool.com/"
                             target="_blank"
@@ -918,39 +925,39 @@ science industry.I have a good experience in mobile development and right now i'
                                 <div className="active item">
                                   <blockquote>
                                     <p>
-                                      “Sanajit was a real pleasure to work with
+                                      Mohamed Ali was a real pleasure to work with
                                       and we look forward to working with him
                                       again. He’s definitely the kind of
                                       developer you can trust with a project
                                       from start to finish.”
                                       <br />
-                                      <span>Ishrak Chaudhury</span>
+                                      <span>mearaj bhagad</span>
                                     </p>
                                   </blockquote>
                                 </div>
                                 <div className="item">
                                   <blockquote>
                                     <p>
-                                      “Sanajit's a clear communicator with the
+                                      Mohamed Ali's a clear communicator with the
                                       tenacity and confidence to really dig in
                                       to tricky design scenarios and the
                                       collaborative friction that's needed to
                                       produce excellent work.”
                                       <br />
-                                      <span>Kamrul Roy</span>
+                                      <span>Yassine jaaouan</span>
                                     </p>
                                   </blockquote>
                                 </div>
                                 <div className="item">
                                   <blockquote>
                                     <p>
-                                      “Sanajit has done a fantastic job overall.
+                                      Mohamed Ali has done a fantastic job overall.
                                       Not only the site is to design, but the
                                       code is also very clean and slick. Love
                                       the way he achieved the translations
                                       portion of the site.”
                                       <br />
-                                      <span>Shahadat Mahapatra</span>
+                                      <span>Siwar saidane</span>
                                     </p>
                                   </blockquote>
                                 </div>
@@ -1012,7 +1019,7 @@ science industry.I have a good experience in mobile development and right now i'
                           >
                             <h3>
                               <strong>
-                                What is the importance of hooks in React JS?
+                              State Management in Flutter
                               </strong>
                             </h3>
                           </a>
@@ -1060,7 +1067,7 @@ science industry.I have a good experience in mobile development and right now i'
                           >
                             <h3>
                               <strong>
-                                The importance of UI/UX | Software Engineering
+                              Performance Optimization in Flutter
                               </strong>
                             </h3>
                           </a>
@@ -1107,7 +1114,7 @@ science industry.I have a good experience in mobile development and right now i'
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
-                              <strong>Form Example in Laravel 8</strong>
+                              <strong>Testing Flutter Apps</strong>
                             </h3>
                           </a>
                         </div>
@@ -1301,7 +1308,7 @@ science industry.I have a good experience in mobile development and right now i'
                           aria-hidden="true"
                         ></i>
                         <h3>Address</h3>
-                        <p>Kolkata, West Bengal, India</p>
+                        <p>bardo, tunis, Tunisia</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6 contact-colamn">
@@ -1319,7 +1326,7 @@ science industry.I have a good experience in mobile development and right now i'
                             fontSize: "17px",
                           }}
                         >
-                          contact.sanajitjana@gmail.com
+                          m.a.belkouri@gmail.com
                         </a>
                       </div>
                     </div>
@@ -1338,7 +1345,7 @@ science industry.I have a good experience in mobile development and right now i'
                             fontSize: "17px",
                           }}
                         >
-                          +91 8372876775
+                          +216 58294153
                         </a>
                       </div>
                     </div>
