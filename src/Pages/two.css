@@ -1,0 +1,23 @@
+.video-link-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .video-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff5733;
+    text-decoration: none;
+    background-color: #fff0f0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-link:hover {
+    color: #fff;
+    background-color: #ff5733;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  

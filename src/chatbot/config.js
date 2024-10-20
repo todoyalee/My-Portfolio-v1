@@ -2,9 +2,13 @@
 import { createChatBotMessage } from "react-chatbot-kit";
 
 const config = {
-  botName: "4inatechnology chatbot",
+  botName: "Energo chatbot",
   initialMessages: [
-    createChatBotMessage(`Hi! I'm here to help you navigate through my portfolio. What would you like to know?`)
+    createChatBotMessage(` Hi ! Je suis ici pour vous aider à découvrir nos nouvelles solutions innovantes.
+
+
+
+! `)
   ],
 };
 

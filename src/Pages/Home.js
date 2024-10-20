@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import './one.css';
+import VideoLink from "../component/Video1.js";
+import VideoLink2 from "../component/Video2.js";
+import VideoLink3 from "../component/Video3.js";
+import EnergyCalculator from "../component/Formulaire.js";
+import Quiz from "../component/quiz.js";
 
 const Home = () => {
   const [formData, setFormData] = useState({
@@ -42,7 +47,7 @@ const handleSubmit = async (e) => {
 };
   return (
     <React.StrictMode>
-      <div className="main-page-content">
+     <div className="main-page-content">
         <div id="home">
           <div id="particles-js"></div>
           <div className="home-content-main">
@@ -137,17 +142,11 @@ const handleSubmit = async (e) => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>What I do</h3>
+                      <h3>What We Do</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                      Enthusiastic software engineering student  eager
-to contribute to team success through diligence, 
-attention to the slightest details and above average 
-organizational skills. Did work on projects that works with 
-modern technologies and frameworks. Motivated 
-to learn, prosper and excel in the computer 
-science industry.I have a good experience in mobile development and right now i'm trying to  master SRE
+                      Les villes et communautés durables visent à créer des environnements urbains qui privilégient l'équilibre écologique, l'équité sociale et la viabilité économique. Cela implique la mise en œuvre d'infrastructures vertes, la promotion d'une utilisation efficace des ressources et l'amélioration des transports en commun. L'engagement des communautés est essentiel, car les résidents jouent un rôle clé dans la prise de décision. L'objectif global est de garantir que le développement urbain répond aux besoins actuels sans compromettre ceux des générations futures.
                       </p>
                     </div>
                   </div>
@@ -159,10 +158,10 @@ science industry.I have a good experience in mobile development and right now i'
                         className="fa fa-pencil-square-o love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>Mobile Development</h3>
+                      <h3>Énergie propre et d’un coût abordable</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Flutter</p>
+                      
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
@@ -171,10 +170,10 @@ science industry.I have a good experience in mobile development and right now i'
                         className="fa fa-file-image-o love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>Web Development</h3>
+                      <h3> Bonne santé et bien-être </h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Mern Stack</p>
+                      
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
@@ -183,19 +182,19 @@ science industry.I have a good experience in mobile development and right now i'
                         className="fa fa-globe love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>Web Design</h3>
+                      <h3>Industrie, innovation et infrastructure </h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Passionate about Web Design from start</p>
+                      
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
                     <div className="love-details" data-wow-delay=".4s">
                       <i className="fa fa-cog love-icon" aria-hidden="true"></i>
-                      <h3>Web Development</h3>
+                      <h3>Villes et communautés durable </h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Created all types of modern web development.</p>
+                      
                     </div>
                   </div>
                 </div>
@@ -209,7 +208,7 @@ science industry.I have a good experience in mobile development and right now i'
                   <div className="col-md-4 col-sm-6 col-xs-12 about-col">
                     <div className="about-image">
                       <img
-                        src="assets/img/p1.jpg"
+                        src="assets/img/energy.png"
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
@@ -218,107 +217,31 @@ science industry.I have a good experience in mobile development and right now i'
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h3>Hello! This is Mohamed Ali Belkouri</h3>
+                        <h3>Energy Consumption is our mission</h3>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        I am a web developer from Tunis, Tunisia. I enjoy
-                        building everything from small business sites to rich
-                        interactive web apps. if you are a business seeking a
-                        web presence or an employer looking to hire, you can get
-                        in touch with me{" "}
-                        <a className="underline2" href="#contact">
-                          {" "}
-                          here.
-                        </a>{" "}
-                        I design and build digital products with simple and
-                        beautiful code. I specialize in custom web theme
-                        development and love what I do.
-                        <br />
-                        <br />
-                        Since beginning my journey as a mobile developer in my
-                        college days, I've done remote work for agencies,
-                        consulted for startups, and collaborated with talented
-                        people to create digital products for both business and
-                        consumer use. I'm quietly confident, naturally curious,
-                        and perpetually working on improving my chops one design
-                        problem at a time.
+                      La conception de quartiers durables repose sur la synergie entre technologie et nature. En intégrant des jardins urbains et des espaces publics, ces communautés créent des environnements propices à la convivialité et à la biodiversité. Des initiatives de transport collectif et de partage de véhicules réduisent les embouteillages tout en améliorant l'air que nous respirons. La participation active des résidents dans les projets locaux renforce la cohésion sociale et fait émerger des solutions adaptées à leurs besoins. En embrassant l’innovation, ces villes offrent un modèle d’avenir où le bien-être humain et environnemental va de pair.
                       </p>
                       <a
                         className="about-link-1"
                         href="assets/cv/sanajit-jana-profile.pdf"
                         target="_blank"
                       >
-                        See Resume
+                        See Our detailled Plan
                       </a>
                       <a className="about-link-2" href="#contact">
-                        Hire Me
+                        Contact Us
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="work-counter text-center">
-              <div className="counter">
-                <div className="container">
-                  <div className="row wow fadeIn">
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-pencil-square-o stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">0021</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>Web Design Completed</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-crop stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">0040</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>UI/UX Design Done</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-bolt stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">0015</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>Website Created</p>
-                      </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6">
-                      <div className="work-statistics">
-                        <i
-                          className="fa fa-coffee stat-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3 className="Count">0085</h3>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>Cups Coffee Taken</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-
+            </div>
+            
         {/* <!-- ================================ Skill =============================== --> */}
 
         <div id="skill">
@@ -327,60 +250,46 @@ science industry.I have a good experience in mobile development and right now i'
               <div className="row">
                 <div className="col-md-12">
                   <div className="main-title text-center wow fadeIn">
-                    <h3>My Skill</h3>
+                    <h3> évaluer vos consommation énergétique. </h3>
+                    
                     <div className="underline1"></div>
                     <div className="underline2"></div>
                     <p>
-                      I value simple content structure, clean design patterns,
-                      and thoughtful interactions.
+                      
                     </p>
                   </div>
                 </div>
               </div>
               <div className="row love-row wow fadeIn">
-                <div className="col-md-6">
-                  <div className="skill-details text-left">
-                    <p>
-                    Mobile Development with Flutter involves planning and iterating an app's structure and layout. 
-                    Once the proper information architecture is in place, I design the visual layer to create a beautiful user experience. 
-                    Front End Development in Flutter includes building out the visual components of a mobile app. Using Dart and Flutter, 
-                    I create fast, interactive applications. This also may include integrating APIs, state management, or other third-party services. 
-                    The work that I am most interested in is 0-1 work (helping you get your idea into the world)..
-                    </p>
-                  </div>
-                </div>
+                
                 <div className="col-md-6">
                   <div className="skill-details">
                     <div className="content">
                       <div className="col">
                         <ul id="skill-main">
-                          <li>
-                            <h3>Flutter</h3>
-                          </li>
-                          <li>
-                            <h3>Nodejs  </h3>
-                          </li>
-                          <li>
-                            <h3>React JS</h3>
-                          </li>
-                          <li>
-                            <h3>PHP (Laravel) </h3>
-                          </li>
-                          <li>
-                            <h3>Firebase</h3>
-                          </li>
-                          <li>
-                            <h3>Spring boot</h3>
-                          </li>
-                          <li>
-                            <h3>MySQL</h3>
-                          </li>
-                          <li>
-                            <h3>git/github</h3>
-                          </li>
-                          <li>
-                            <h3>docker/kubernates</h3>
-                          </li>
+                        
+                        
+          
+            <div className="love-grid text-center">
+              <div className="container">
+                <div className="row">
+                  
+                    
+                      
+                      <div className="underline1"></div>
+                      <div className="underline2"></div>
+                      <p>
+                      <EnergyCalculator/>
+                      </p>
+                    
+                  
+                
+                </div>
+                
+                </div>
+                </div>
+                        
+                          
                         </ul>
                       </div>
                     </div>
@@ -392,191 +301,6 @@ science industry.I have a good experience in mobile development and right now i'
         </div>
 
         {/* <!-- ================================ RESUME =============================== --> */}
-
-        <div id="resume">
-          <div className="resume-content">
-            <div className="resume-grid text-center">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="main-title text-center wow fadeIn">
-                      <h3>Educational Story</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>
-                        I like to code things from scratch, and enjoy bringing
-                        ideas to life in the browser.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="row love-row wow fadeIn">
-                  <div className="col-md-4 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".2s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                        <i
-                          className="fa fa-home resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>School</h3>
-                        <h2>2005-2020</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Completed my school life from bardo 2 High School
-                          (H.S.),  bardo, tunis, Tunisia.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".3s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                        <i
-                          className="fa fa-graduation-cap resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Graduation</h3>
-                        <h2>2020-2023</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Achieved my Graduation Degree from{" "}
-                          <a
-                            href="https://www.cclms.org/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            ISSat MATEUR (Computer Science)
-                          </a>
-                          , mateur, Tunisia
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-sm-4">
-                    <div className="resume-details" data-wow-delay=".4s">
-                      <div className="resume-hover"></div>
-                      <div className="resume-main">
-                        <i
-                          className="fa fa-graduation-cap resume-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Software &amp; EEngineering</h3>
-                        <h2>2023-2026</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          Currently learning Mobile Development from{" "}
-                          <a
-                            href="https://masaischool.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Masai School
-                          </a>
-                          , Bengaluru, India.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="row main-row wow fadeIn">
-                  <div className="col-md-12">
-                    <div className="main-title text-center">
-                      <h3>Working Experience</h3>
-                      <div className="underline1"></div>
-                      <div className="underline2"></div>
-                      <p>
-                        I don’t like to define myself by the work I’ve done. I
-                        define myself by the work I want to do.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="row love-row">
-                  <div className="col-md-6 col-sm-12">
-                    <div className="exp-details" data-wow-delay=".2s">
-                      <div className="exp-hover"></div>
-                      <div className="exp-main">
-                        <i
-                          className="fa fa-building exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>
-                          <a
-                            href="https://patelgtech.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "#4d4d4d" }}
-                          >
-                            Patel G Tech LLP
-                          </a>
-                        </h3>
-                        <h4>Repub Member</h4>
-                        <h2>2019-2020</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          I did an internship at PATEL G TECH LLP as a
-                          Republication Team Member
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-sm-12">
-                    <div className="exp-details" data-wow-delay=".3s">
-                      <div className="exp-hover"></div>
-                      <div className="exp-main">
-                        <i
-                          className="fa fa-building exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>
-                          <a
-                            href="https://uaguria.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: "#4d4d4d" }}
-                          >
-                            Uaguria Software
-                          </a>
-                        </h3>
-                        <h4>Web Developer</h4>
-                        <h2>2020-2022</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>
-                          At Uaguria Software, I was working as a Web Developer
-                          &amp; IT Consultant Person
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <div className="col-md-4 col-sm-4">
-                    <div className="exp-details" data-wow-delay=".4s">
-                      <div className="exp-hover"></div>
-                      <div className="exp-main">
-                        <i
-                          className="fa fa-cogs exp-icon"
-                          aria-hidden="true"
-                        ></i>
-                        <h3>Supreme Company</h3>
-                        <h4>Designer &amp; Developer</h4>
-                        <h2>2013-2016</h2>
-                        <div className="underline1"></div>
-                        <div className="underline2"></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                      </div>
-                    </div>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         {/* <!-- ================================ WORK =============================== --> */}
 
@@ -738,7 +462,7 @@ science industry.I have a good experience in mobile development and right now i'
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/design-development.jpg"
+                          src="assets/img/n6.jpeg"
                           alt="design-development"
                         />
                       </div>
@@ -747,12 +471,11 @@ science industry.I have a good experience in mobile development and right now i'
                           className="fa fa-edit service-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Design + Development</h3>
+                        <h3>Programmes de santé et de bien-être</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Clean, modern designs - optimized for performance,
-                          search engines, and converting users to customers.
+                        Ateliers sur la nutrition et la santé mentale.
                         </p>
                       </div>
                     </div>
@@ -761,7 +484,7 @@ science industry.I have a good experience in mobile development and right now i'
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/e-commarce.jpg"
+                          src="assets/img/n2.jpeg"
                           alt="e-commarce"
                         />
                       </div>
@@ -770,12 +493,11 @@ science industry.I have a good experience in mobile development and right now i'
                           className="fa fa-cart-plus exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>eCommerce</h3>
+                        <h3>Consultation en énergie renouvelable</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Integration of eCommerce platforms, payment gateways,
-                          custom product templates, and more.
+                        Accompagnement pour passer aux énergies solaires et éoliennes.
                         </p>
                       </div>
                     </div>
@@ -784,7 +506,7 @@ science industry.I have a good experience in mobile development and right now i'
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/analytics.jpg"
+                          src="assets/img/n3.jpeg"
                           alt="analytics"
                         />
                       </div>
@@ -793,12 +515,11 @@ science industry.I have a good experience in mobile development and right now i'
                           className="fa fa-tachometer service-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Analytics</h3>
+                        <h3>Planification d'infrastructures durables</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Get insights into who is browsing your site so that
-                          you can make smarter business decisions.
+                        Aide à la conception de projets d'infrastructure écologiques.
                         </p>
                       </div>
                     </div>
@@ -807,7 +528,7 @@ science industry.I have a good experience in mobile development and right now i'
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/mobile-friendly.jpg"
+                          src="assets/img/n4.jpeg"
                           alt="mobile-friendly"
                         />
                       </div>
@@ -816,12 +537,11 @@ science industry.I have a good experience in mobile development and right now i'
                           className="fa fa-desktop exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Mobile-friendly</h3>
+                        <h3>Ateliers sur l'innovation et la technologie</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          A responsive design makes your website accessible to
-                          all users, regardless of their device.
+                        Formations sur les technologies durables pour les entreprises.
                         </p>
                       </div>
                     </div>
@@ -830,7 +550,7 @@ science industry.I have a good experience in mobile development and right now i'
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/website-audit.jpg"
+                          src="assets/img/n5.jpeg"
                           alt="website-audit"
                         />
                       </div>
@@ -839,12 +559,11 @@ science industry.I have a good experience in mobile development and right now i'
                           className="fa fa-search exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Website Rank</h3>
+                        <h3>Initiatives de développement communautaire </h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Looking to improve your page performance, SEO, or user
-                          experience? Request a free site audit.
+                        Projets de jardins urbains et programmes de recyclage.
                         </p>
                       </div>
                     </div>
@@ -853,7 +572,7 @@ science industry.I have a good experience in mobile development and right now i'
                     <div className="service-details" data-wow-delay=".1s">
                       <div className="service-head">
                         <img
-                          src="assets/img/service/content-management.jpg"
+                          src="assets/img/n6.jpeg"
                           alt="content-management"
                         />
                       </div>
@@ -862,12 +581,15 @@ science industry.I have a good experience in mobile development and right now i'
                           className="fa fa-file exp-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Content Management</h3>
+                        <h3>Campagnes de sensibilisation à l'environnement</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Custom theme and plugin development. Easily update
-                          site content with knowledge of powerful code.
+                        Actions pour encourager des pratiques durables.
+
+
+
+
                         </p>
                       </div>
                     </div>
@@ -875,6 +597,14 @@ science industry.I have a good experience in mobile development and right now i'
                 </div>
               </div>
             </div>
+
+
+
+
+
+
+
+            
             <div className="testimonial">
               <div className="testimonial-content">
                 <div className="testimonial-grid">
@@ -886,7 +616,10 @@ science industry.I have a good experience in mobile development and right now i'
                           <div className="underline1"></div>
                           <div className="underline2"></div>
                           <p>
-                            People I've worked with have said some nice things
+                          des vidéos expliquant les signes 
+avant-coureurs de maladies graves comme les crises cardiaques, les AVC, ou les 
+cancers, qui soulignent l'importance de consulter un médecin dès l'apparition des 
+symptômes.
                           </p>
                         </div>
                       </div>
@@ -925,39 +658,32 @@ science industry.I have a good experience in mobile development and right now i'
                                 <div className="active item">
                                   <blockquote>
                                     <p>
-                                      Mohamed Ali was a real pleasure to work with
-                                      and we look forward to working with him
-                                      again. He’s definitely the kind of
-                                      developer you can trust with a project
-                                      from start to finish.”
+                                    CHUS
+
+                                    <VideoLink />
+                                    
                                       <br />
-                                      <span>mearaj bhagad</span>
+                                      
                                     </p>
                                   </blockquote>
                                 </div>
                                 <div className="item">
                                   <blockquote>
                                     <p>
-                                      Mohamed Ali's a clear communicator with the
-                                      tenacity and confidence to really dig in
-                                      to tricky design scenarios and the
-                                      collaborative friction that's needed to
-                                      produce excellent work.”
+                                    Symptômes Cardiaques 
+                                    <VideoLink2 />
                                       <br />
-                                      <span>Yassine jaaouan</span>
+                                      
                                     </p>
                                   </blockquote>
                                 </div>
                                 <div className="item">
                                   <blockquote>
                                     <p>
-                                      Mohamed Ali has done a fantastic job overall.
-                                      Not only the site is to design, but the
-                                      code is also very clean and slick. Love
-                                      the way he achieved the translations
-                                      portion of the site.”
+                                    10 Signes Alarmants
+                                    <VideoLink3 />
                                       <br />
-                                      <span>Siwar saidane</span>
+                                      
                                     </p>
                                   </blockquote>
                                 </div>
@@ -974,194 +700,35 @@ science industry.I have a good experience in mobile development and right now i'
           </div>
         </div>
 
+
+        
+
         {/* <!-- ================================ BLOG ========================== --> */}
 
-        <div id="blog">
-          <div className="blog-content">
-            <div className="blog-grid">
+       
+        <div id="about">
+          <div className="about-content">
+            <div className="love-grid text-center">
               <div className="container">
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>My Blog</h3>
+                      <h3>QUIZ</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        The Blog, Which has thoughts on life, work and
-                        everything in between.
+                     
                       </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="blog-details wow fadeIn text-left">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-4 col-sm-6">
-                      <div className="blog-main">
-                        <a
-                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src="assets/img/blog/blog1.png"
-                            alt="React hooks were introduced in version 16.8"
-                            className="blog-img"
-                          />
-                        </a>
-                        <div className="blog-head">
-                          <a
-                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ textDecoration: "none" }}
-                          >
-                            <h3>
-                              <strong>
-                              State Management in Flutter
-                              </strong>
-                            </h3>
-                          </a>
-                        </div>
-                        <div className="blog-bottom">
-                          <p>
-                            In this article, you will learn what are hooks in
-                            React JS? and when to use react hooks? React JS is
-                            developed by Facebook in the year 2013. There are
-                            many students and the new developers who have
-                            confusion between react and hooks in react. Well, it
-                            is not different, react is a programming language
-                            and hooks is ...
-                          </p>
-                          <a
-                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="about-link-2"
-                          >
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                      <div className="blog-main">
-                        <a
-                          href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src="assets/img/blog/blog2.png"
-                            alt="The importance of UI/UX"
-                            className="blog-img"
-                          />
-                        </a>
-                        <div className="blog-head">
-                          <a
-                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ textDecoration: "none" }}
-                          >
-                            <h3>
-                              <strong>
-                              Performance Optimization in Flutter
-                              </strong>
-                            </h3>
-                          </a>
-                        </div>
-                        <div className="blog-bottom">
-                          <p>
-                            UI or User Interface is the interface that is the
-                            access point where users interact with computers. It
-                            is also a way through which users can interact with
-                            a website or an application. UI design typically
-                            refers to graphical user interfaces but also
-                            includes others, such as voice-controlled ones, a
-                            keyboard and the appearance ...
-                          </p>
-                          <a
-                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="about-link-2"
-                          >
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                      <div className="blog-main">
-                        <a
-                          href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src="assets/img/blog/blog3.png"
-                            alt="blog-img"
-                            className="blog-img"
-                          />
-                        </a>
-                        <div className="blog-head">
-                          <a
-                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ textDecoration: "none" }}
-                          >
-                            <h3>
-                              <strong>Testing Flutter Apps</strong>
-                            </h3>
-                          </a>
-                        </div>
-                        <div className="blog-bottom">
-                          <p>
-                            Laravel 8 form example tutorial. In this post, i
-                            will teach from starting on how to send form data on
-                            controller and how to insert form data in database
-                            using laravel 8. If you are trying to create form
-                            and want to insert form data into database using
-                            laravel 8 latest version. So this post will help you
-                            to do this. Because in this post example, i will
-                            create contact-list ...
-                          </p>
-                          <a
-                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="about-link-2"
-                          >
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row" style={{ textAlign: "center" }}>
-                      <a
-                        href="https://dev.to/sanajitjana"
-                        target="newtab"
-                        className="btn btn-warning"
-                        style={{
-                          width: "50%",
-                          fontSize: "16px",
-                          backgroundColor: "#efd236",
-                          borderColor: "#efd236",
-                          color: "black",
-                        }}
-                      >
-                        More Blog
-                      </a>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                </div>
+                </div>
+                </div>
+                <div id="quiz">
+<Quiz/>
+</div>
 
         {/* <!-- ================================ CONTACT ========================== --> */}
 
@@ -1173,12 +740,11 @@ science industry.I have a good experience in mobile development and right now i'
                   <div className="row">
                     <div className="col-md-12 col-sm-12">
                       <div className="main-title text-center wow fadeIn">
-                        <h3>Contact Me</h3>
+                        <h3>Contact Us</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          I’m always open to discussing product design work or
-                          partnership opportunities.
+                          I hope we Inspired You ! 
                         </p>
                       </div>
                     </div>
@@ -1308,7 +874,7 @@ science industry.I have a good experience in mobile development and right now i'
                           aria-hidden="true"
                         ></i>
                         <h3>Address</h3>
-                        <p>bardo, tunis, Tunisia</p>
+                        <p> tunis, Tunisia</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6 contact-colamn">
@@ -1355,8 +921,8 @@ science industry.I have a good experience in mobile development and right now i'
                           className="fa fa-television contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Portfolio</h3>
-                        <p>https://sanajitjana.github.io/</p>
+                        <h3> See our collaborators</h3>
+                        <p>https://FutureCollabs.com</p>
                       </div>
                     </div>
                   </div>
@@ -1400,7 +966,7 @@ science industry.I have a good experience in mobile development and right now i'
                       <div class="map-wrap">
                         <iframe
                           title="google-maps"
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5630603985!2d88.0495328251319!3d22.675752087592436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1653845709428!5m2!1sen!2sin"
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26125.885749409425!2d10.165170343420517!3d36.81897059210434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1301bafedfa3b4cf%3A0x7dcb2c9db3f6c2f2!2sTunis%2C%20Tunisia!5e0!3m2!1sen!2sus!4v1697005900740!5m2!1sen!2sus"
                           width="100%"
                           height="450"
                           style={{ border: "0" }}

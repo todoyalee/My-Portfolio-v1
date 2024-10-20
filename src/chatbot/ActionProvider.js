@@ -5,13 +5,85 @@ class ActionProvider {
     }
   
     handleHello = () => {
-      const message = this.createChatBotMessage("Hello!  i'm 4inatechnlogy  chatbot How can I assist you today?");
+      const message = this.createChatBotMessage("Hello!  i'm energo chatbot , my goal is to help you discover ideas for urban improvements while facilitating their participation  ,would you like to start ? ");
       this.setState((prev) => ({
         ...prev,
         messages: [...prev.messages, message],
         
       }));
     };
+
+
+    handleJaw = () => {
+      const message = this.createChatBotMessage(
+        "Okay, I'm going to ask you some questions to know what kind of improvements you want in your city! First of all:\n" +
+        "Quels types d'améliorations aimeriez-vous pour rendre votre ville plus durable ?\n" +
+        "Option 1 : Espaces verts et parcs\n" +
+        "Option 2 : Solutions de transport durable (ex : pistes cyclables, transports publics électriques)\n" +
+        "Option 3 : Bâtiments écologiques et économes en énergie"
+      );
+      
+      this.setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, message],
+        
+      }));
+    };
+
+    handleOp2 = () => {
+      const message = this.createChatBotMessage("great ! 45% of people support this idea !  ");
+      this.setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, message],
+        
+      }));
+    };
+    handleEspace = () => {
+      const message = this.createChatBotMessage("Les parcs urbains augmentent la biodiversité et offrent des espaces de détente. Souhaitez-vous voter pour la création de nouveaux parcs dans votre ville ?  ");
+      this.setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, message],
+        
+      }));
+    };
+
+
+    handleEspace2 = () => {
+      const message = this.createChatBotMessage("sure , ! Voici une idée pour améliorer votre ville : 'Créer plus de zones piétonnes pour réduire la pollution.' Souhaitez-vous soutenir cette idée ?  \n Option 1 : Oui, je soutiens cette idée.  \n o Option 2 : Non, je préfère une autre solution.   ");
+      this.setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, message],
+        
+      }));
+    };
+
+    handleEspace3 = () => {
+      const message = this.createChatBotMessage( "Quel est votre plus grand souci concernant votre ville ?  o Option 1 : Trop de circulation o Option 2 : Manque de nature o Option 3 : Problèmes de gestion des déchets  ");
+      this.setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, message],
+        
+      }));
+    };
+
+
+    handleCirculation = () => {
+      const message = this.createChatBotMessage( "Pour réduire la circulation, vous pourriez soutenir la création de zones sans voitures ");
+      this.setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, message],
+        
+      }));
+    };
+    handleNature = () => {
+      const message = this.createChatBotMessage( "Augmenter les espaces verts en intégrant des jardins urbains et des toits végétalisés. ");
+      this.setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, message],
+        
+      }));
+    };
+
     handleHowAreYou = () => {
         const message = this.createChatBotMessage("i'm great thank u for askin , how are u , how is your energy is consumed today?");
         this.setState((prev) => ({
@@ -71,14 +143,16 @@ class ActionProvider {
           ...prev,
           messages: [...prev.messages, message],
         }));
+
       };
-      handleDefault = () => {
-        const message = this.createChatBotMessage("I'm not sure how to help with that. Can you please provide more details or ask a different question?");
-        this.setState((prev) => ({
-          ...prev,
-          messages: [...prev.messages, message],
-        }));
-      };
+
+      // handleDefault = () => {
+      //   const message = this.createChatBotMessage("I'm not sure how to help with that. Can you please provide more details or ask a different question?");
+      //   this.setState((prev) => ({
+      //     ...prev,
+      //     messages: [...prev.messages, message],
+      //   }));
+      // };
   
 
     // Add more actions here based on user inputs
